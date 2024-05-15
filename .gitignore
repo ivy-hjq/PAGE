@@ -1,6 +1,6 @@
-/Data
-/Output
+# /Data
+# /Output
 
 *.pyc
-data/
+# data/
 __pycache__/
