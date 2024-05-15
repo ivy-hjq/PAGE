@@ -1,0 +1,43 @@
+#PAGE-FL
+register(
+    id="PAGE_cifar100-v0",
+    entry_point="gym.envs.my_env.PAGE_cifar100_Env:PAGE_cifar100_Env",
+    max_episode_steps=1000,
+)
+register(
+    id="PAGE_imagenet200-v0",
+    entry_point="gym.envs.my_env.PAGE_imagenet200_Env:PAGE_imagenet200_Env",
+    max_episode_steps=1000,
+)
+register(
+    id="PAGE_shakespeare-v0",
+    entry_point="gym.envs.my_env.PAGE_shakespeare_Env:PAGE_shakespeare_Env",
+    max_episode_steps=1000,
+)
+register(
+    id="PAGE_synthetic-v0",
+    entry_point="gym.envs.my_env.PAGE_synthetic_Env:PAGE_synthetic_Env",
+    max_episode_steps=1000,
+)
+
+#Dap-FL
+register(
+    id="Dap_cifar100-v0",
+    entry_point="gym.envs.my_env.Dap_cifar100_Env:Dap_cifar100_Env",
+    max_episode_steps=1000,
+)
+register(
+    id="Dap_imagenet200-v0",
+    entry_point="gym.envs.my_env.Dap_imagenet200_Env:Dap_imagenet200_Env",
+    max_episode_steps=1000,
+)
+register(
+    id="Dap_shakespeare-v0",
+    entry_point="gym.envs.my_env.Dap_shakespeare_Env:Dap_shakespeare_Env",
+    max_episode_steps=1000,
+)
+register(
+    id="Dap_synthetic-v0",
+    entry_point="gym.envs.my_env.Dap_synthetic_Env:Dap_synthetic_Env",
+    max_episode_steps=1000,
+)
